@@ -16,6 +16,7 @@ permalink: /blog
   .row-right { text-align: right; flex-shrink: 0; }
   .row-date { font-size: 0.78rem; color: #86868b; }
   .row-time { font-size: 0.78rem; color: #86868b; margin-top: 0.2rem; }
+  .empty { color: #86868b; font-size: 0.95rem; padding: 3rem 0; }
 </style>
 
 <div class="blog-hero">
@@ -24,17 +25,21 @@ permalink: /blog
 </div>
 
 <div class="blog-posts">
-  {% for post in site.posts %}
-  <a class="post-row" href="{{ post.url }}">
-    <div>
-      <div class="row-tag">{{ post.categories | first }}</div>
-      <div class="row-title">{{ post.title }}</div>
-      <div class="row-desc">{{ post.excerpt | strip_html | truncate: 80 }}</div>
-    </div>
-    <div class="row-right">
-      <div class="row-date">{{ post.date | date: "%Y年%-m月%-d日" }}</div>
-      <div class="row-time">{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min</div>
-    </div>
-  </a>
-  {% endfor %}
+  {% if site.posts.size > 0 %}
+    {% for post in site.posts %}
+    <a class="post-row" href="{{ post.url }}">
+      <div>
+        <div class="row-tag">{{ post.categories | first }}</div>
+        <div class="row-title">{{ post.title }}</div>
+        <div class="row-desc">{{ post.excerpt | strip_html | truncate: 80 }}</div>
+      </div>
+      <div class="row-right">
+        <div class="row-date">{{ post.date | date: "%Y年%-m月%-d日" }}</div>
+        <div class="row-time">{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min</div>
+      </div>
+    </a>
+    {% endfor %}
+  {% else %}
+    <p class="empty">暂无文章，敬请期待。</p>
+  {% endif %}
 </div>

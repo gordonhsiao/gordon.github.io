@@ -1,0 +1,8 @@
+title: GX 的博客
+description: 记录技术、思考与生活
+url: "https://gordonhsiao.github.io"
+encoding: utf-8
+markdown: kramdown
+
+plugins:
+  - jekyll-feed

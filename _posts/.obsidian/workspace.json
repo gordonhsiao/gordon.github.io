@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e244df559148845f",
+        "id": "29f8b9f114de2415",
         "type": "tabs",
         "children": [
           {
-            "id": "9d74bd3c86ddd621",
+            "id": "d755f059c12fc68e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -179,9 +179,10 @@
       "bases:新建数据库": false
     }
   },
-  "active": "9d74bd3c86ddd621",
+  "active": "d755f059c12fc68e",
   "lastOpenFiles": [
     "2026-03-27-SAP 全球模板（Global Template）项目怎么做.md",
+    "Pasted image 20260327170007.png",
     "2026-03-26-SAP S4HANA 高级外币评估 (FINS_FXV) 配置指南.md",
     "2026-03-25-SAP项目实施之难.md",
     "2026-03-23-hello-world.md",

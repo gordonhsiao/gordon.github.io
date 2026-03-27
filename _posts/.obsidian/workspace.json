@@ -11,10 +11,14 @@
             "id": "d755f059c12fc68e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026-03-27-SAP 全球模板（Global Template）项目怎么做.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "2026-03-27-SAP 全球模板（Global Template）项目怎么做"
             }
           }
         ]
@@ -181,9 +185,9 @@
   },
   "active": "d755f059c12fc68e",
   "lastOpenFiles": [
+    "2026-03-26-SAP S4HANA 高级外币评估 (FINS_FXV) 配置指南.md",
     "2026-03-27-SAP 全球模板（Global Template）项目怎么做.md",
     "Pasted image 20260327170007.png",
-    "2026-03-26-SAP S4HANA 高级外币评估 (FINS_FXV) 配置指南.md",
     "2026-03-25-SAP项目实施之难.md",
     "2026-03-23-hello-world.md",
     "2026-03-23-hello-world.md.md"

@@ -6,8 +6,7 @@ categories: 随笔
 ---
 ##  **SAP全球模板（Global Template）推广项目的全生命周期标准化指南**
 
-
-![[Pasted image 20260327170007.png]]
+![](/assets/images/ppt001.png)
 
 ### **第一部分：SAP 全球实施项目全生命周期概览 (Full Overview)**
 

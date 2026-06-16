@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "29f8b9f114de2415",
+        "id": "eb35ad60f2dd73ac",
         "type": "tabs",
         "children": [
           {
-            "id": "d755f059c12fc68e",
+            "id": "70aaa824fe6a7c04",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-03-31-SAP 辅助核算方案深度对比.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-03-31-SAP 辅助核算方案深度对比"
+              "title": "新标签页"
             }
           }
         ]
@@ -74,8 +70,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,13 +179,15 @@
       "bases:新建数据库": false
     }
   },
-  "active": "d755f059c12fc68e",
+  "active": "70aaa824fe6a7c04",
   "lastOpenFiles": [
+    "2026-06-16-SAP发布《AI-Native North Star Architecture》架构文档.md",
     "2026-03-31-SAP 辅助核算方案深度对比.md",
-    "2026-03-27-SAP 全球模板（Global Template）项目怎么做.md",
-    "2026-03-26-SAP S4HANA 高级外币评估 (FINS_FXV) 配置指南.md",
-    "Pasted image 20260327170007.png",
+    "2026-06-16-SAP发布《AI-Native North Star Architecture》架构文档1.md",
     "2026-03-25-SAP项目实施之难.md",
+    "2026-03-26-SAP S4HANA 高级外币评估 (FINS_FXV) 配置指南.md",
+    "2026-03-27-SAP 全球模板（Global Template）项目怎么做.md",
+    "Pasted image 20260327170007.png",
     "2026-03-23-hello-world.md",
     "2026-03-23-hello-world.md.md"
   ]
